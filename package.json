@@ -1,0 +1,30 @@
+{
+  "name": "cientifico",
+  "version": "1.0.0",
+  "description": "single page application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development",
+    "dev" : "webpack --mode development"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Amador Quispe <aquispe@miatecy.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "babel-loader": "^8.2.5",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "css-loader": "^6.7.1",
+    "mini-css-extract-plugin": "^2.6.0",
+    "webpack-dev-server": "^4.9.0"
+  },
+  "dependencies": {
+    
+  }
+}
